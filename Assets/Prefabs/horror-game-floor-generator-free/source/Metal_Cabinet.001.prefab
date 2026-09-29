@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 8660520948057135193}
   - component: {fileID: 3720029990982030343}
   - component: {fileID: 5534189664905066877}
+  - component: {fileID: -7912340571673498629}
   m_Layer: 0
   m_Name: Metal_Cabinet.001
-  m_TagString: Untagged
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -90,3 +91,17 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &-7912340571673498629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4222105470477286574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebb0f7bb98c402f44beb3d9061268bc3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectHeallth
+  maxhealth: 100
+  currentHealth: 0

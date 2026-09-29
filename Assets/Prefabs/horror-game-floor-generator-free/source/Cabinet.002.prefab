@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 5866918058465886909}
   - component: {fileID: 6562126820785210818}
   - component: {fileID: 7044076482134694482}
+  - component: {fileID: -2656729121258647669}
   m_Layer: 0
   m_Name: Cabinet.002
-  m_TagString: Untagged
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -90,3 +91,17 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &-2656729121258647669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8543213580647748448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebb0f7bb98c402f44beb3d9061268bc3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectHeallth
+  maxhealth: 100
+  currentHealth: 0
