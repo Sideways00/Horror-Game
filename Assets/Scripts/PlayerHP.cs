@@ -8,6 +8,7 @@ public class PlayerHP : MonoBehaviour
     public float maxHealth = 100;
     public float currentHealth;
     public Image healthbar;
+    public GameManager gameManager;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -25,6 +26,7 @@ public class PlayerHP : MonoBehaviour
     void Die()
     {
         Debug.Log("Player has died.");
+        gameManager.gameOver();
         // Add death logic here (e.g., respawn, game over screen, etc.)
     }
     void Update()
